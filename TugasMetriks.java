@@ -14,7 +14,7 @@ public class TugasMetriks {
         int matrix[][] = new int[baris][Kolom];
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix[i].length; j++) {
-                System.out.print("Masukkan Nilai Matrix: ");
+                System.out.print("Masukkan Matrix Baris " + (i+1) + " Kolom " + (j+1) + " : ");
                 matrix[i][j] = input.nextInt();
             }
         }
